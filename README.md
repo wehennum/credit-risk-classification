@@ -4,12 +4,19 @@ This analysis aimed to employ machine learning for predicting lending credit ris
 
 RESULTS
 
-       	           Label	Precision	Recall   F1-Score    Support
-Healthy Loan	0.00	1.00	1.00	1.00	18759
-High risk Loan	1	0.87	0.95	0.91	625
+Healthy Loan (Label 0)
+Precision score - 1.00
+Recall Score - 1.00
+F1-Score - 1.00
 
+High-Risk Loan (Label 1)
+Precision score - .87
+Recall Score - .95
+F1-Score - .91
 
-
+Overall 
+Accuracy Score - 99%
+Balanced Accuracy Score - 97.21%
 
 SUMMARY 
 The model we selected (logistical regression) showed excellent performance in predicting healthy loans (Label 0), achieving perfect precision, recall, and F1-score. For high-risk loans (Label 1), the model maintains strong precision and recall scores of 0.87 and 0.95, respectively, with an overall F1-score of 0.91. This suggests the model effectively identifies both healthy and high-risk loans, with slightly lower precision for high-risk loans. The ability to predict high risk loans is the critical aspect that will allow the bank to make the necessary adjustments to rates or by making the applier put up some sort of asset to
