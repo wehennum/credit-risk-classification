@@ -4,11 +4,9 @@ This analysis aimed to employ machine learning for predicting lending credit ris
 
 RESULTS
 
-           Label   precision  recall   f1-score  support
-
-Healthy Loan-0       1.00      1.00      1.00     18759
-High_Risk-   1       0.87      0.95      0.91       625
-
+       	           Label	Precision	Recall   F1-Score    Support
+Healthy Loan	0.00	1.00	1.00	1.00	18759
+High risk Loan	1	0.87	0.95	0.91	625
 
 
 
